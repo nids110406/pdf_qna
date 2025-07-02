@@ -20,13 +20,13 @@ This app allows you to upload any PDF (lecture notes, research papers, eBooks, m
 ## 🛠️ Tech Stack
 
 | Component      | Tool/Library                          |
-|----------------|----------------------------------------|
+|----------------|---------------------------------------|
 | PDF Extraction | PyMuPDF (`fitz`)                      |
 | Embeddings     | HuggingFace `all-MiniLM-L6-v2`        |
 | Vector Store   | ChromaDB                              |
 | QA Pipeline    | LangChain                             |
 | UI             | Streamlit                             |
-| (Optional) LLM | OpenAI GPT-3.5 or HuggingFace models  |
+| LLM            | OpenAI GPT-3.5                        |
 
 ---
 
